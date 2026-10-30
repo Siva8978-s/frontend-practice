@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tutorial Student Registration Form</h2>
+    <form action="https://www.10000coders.in/">
+        <label>Basic Information</label><br><br>
+
+        <label >Full Name</label><br><br>
+
+        <input type="text" id="fname" required> <input type="text" id="'mname" required> <input type="text" id="'lname" required> <br>
+        <label for="fname">First Name</label> <label for="mname">Middle Name</label> <label for="lname">Last Name</label> <br><br>
+
+        <label for="number">Student Number</label><br>
+        <input type="text" required id="number" ><br><br>
+
+        <label for="level">year level</label><br>
+        <input id="level" list="years" required>
+
+        <datalist id="years">
+            <option>12th strandard</option>
+            <option>B.Tech Degree</option>
+            <option>M.Tech Degree</option>
+        </datalist>
+        <br><br>
+
+        <label for="topic">Interesting Topic</label><br>
+        <input id="topic" list="t">
+
+        <datalist id="t">
+            <option>ECE</option>
+            <option>CSE</option>
+            <option>Mech</option>
+            <option>Civil</option>
+
+        </datalist><br><br>
+
+        <label for="email">E-mail</label><br>
+        <input type="email"  id="email" required> <br><br>
+
+        <label for="num">Mobile Number</label><br>
+        <input type="text" id="num" required><br><br>
+
+        <label for="n">Telephone Number</label><br>
+        <input type="text" id="n" required><br><br>
+        <hr>
+
+        <label>Home Address</label><br><br><br>
+
+        <input type="text" id="address" required><br>
+        <label for="address">Street Address</label><br><br>
+
+        <input type="text" id="ad2"><br>
+        <label for="ad2">Street Adress Line2</label><br><br>
+
+        <input type="text" id="city" required> <input type="text" id="state" required><br>
+        <label for="city">City</label> <label for="state">State/Province</label><br><br>
+
+        <input type="text" id="postal" required><br>
+        <label for="postel">Postal / Zip Code</label><br><br>
+
+        <input  id="country" list="con"><br>
+        <label for="country">Country</label>
+        <datalist id="con">
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>Srilanka</option>
+            <option>US</option>
+            <option>China</option>
+            <option>Australia</option>
+            <option>UK</option>
+            <option>Germany</option>
+
+        </datalist><br><br>
+
+        <hr>
+        <label>Academic Background</label><br><br>
+        <label for="achool">School</label><br>
+        <input type="text" id="school" required><br><br>
+        <hr>
+        <label>Other Details</label><br><br>
+        <label>Resources Available</label><br><br>
+        <input type="checkbox" id="car"> 
+        <label for="car">Car/transporation</label> 
+
+        <input type="checkbox" id="event">
+        <label for="event">Event Venue/House</label><br>
+
+        <input type="checkbox" id="printer">
+        <label for="printer">Printer</label>
+
+        <input type="checkbox" id="LCD">
+        <label for="LCD">LCD Projector</label><br>
+
+        <input type="checkbox" id="laptop">
+        <label for="laptop">Laptop</label><br><br>
+
+        <label for="suggest">Suggestions / Comments</label><br>
+        <textarea id="suggest" name="suggest" rows="4" cols="30"></textarea>
+        
+
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
